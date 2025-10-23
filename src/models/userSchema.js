@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const userStudentSchema = new mongoose.Schema({
-  studentId: {
+const userSchema = new mongoose.Schema({
+  userId: {
     type: Number,
     required: true,
     unique: true
@@ -30,5 +30,5 @@ const userStudentSchema = new mongoose.Schema({
     }
 });
 
-const userStudent = mongoose.model('userStudent', userStudentSchema);
-module.exports = userStudent;
+const User = mongoose.model('user', userSchema);
+module.exports = User;

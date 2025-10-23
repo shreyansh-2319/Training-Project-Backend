@@ -2,7 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path'); 
-const studentRouter = require('../Training-Project-Backend/src/routes/student-router.js'); 
+ const userRouter = require('../Training-Project-Backend/src/routes/user-router.js');
 const recentExamsRouter = require('../Training-Project-Backend/src/routes/recentExam-router.js');
 const examAdminRouter = require('../Training-Project-Backend/src/routes/examAdmin-router.js');
 const passport = require('passport');
@@ -11,7 +11,7 @@ require('../Training-Project-Backend/src/config/passport.js')(passport);
 const db=require('./db.js');
 
 const app = express();  
-const PORT = 3000;
+const PORT = 8000;
 
 app.use(express.json());
 
@@ -23,7 +23,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/students', studentRouter);
+app.use('/users', userRouter);
 
 app.use('/recentExams', recentExamsRouter);
 
