@@ -1,7 +1,7 @@
-const app=require('./app');
+require('dotenv').config();
+const express = require('express');
+const appRouter = require('./app'); // Import the router from app.js
 
-const PORT=3000;
+const app = express();
+const PORT = 8000;
 
-app.listen(PORT,()=>{
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
