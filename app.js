@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path'); 
 const studentRouter = require('../Training-Project-Backend/src/routes/student-router.js'); 
 const recentExamsRouter = require('../Training-Project-Backend/src/routes/recentExam-router.js');
+const questionsRouter = require('../Training-Project-Backend/src/routes/questions-router.js');
 const examAdminRouter = require('../Training-Project-Backend/src/routes/examAdmin-router.js');
 const passport = require('passport');
 require('../Training-Project-Backend/src/config/passport.js')(passport);
@@ -28,6 +29,8 @@ app.use('/students', studentRouter);
 app.use('/recentExams', recentExamsRouter);
 
 app.use('/exams', examAdminRouter);
+
+app.use('/courses', questionsRouter);
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
