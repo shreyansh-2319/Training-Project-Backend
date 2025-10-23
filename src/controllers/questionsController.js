@@ -3,11 +3,6 @@ const path = require('path');
 const QUESTION_DATA_PATH = path.join(__dirname, '../Data/questions.json');
 const COURSES_DATA_PATH = path.join(__dirname, '../Data/courses.json');
 
-const getCoursesFromFile = () => {
-    const courses = fs.readFileSync(COURSES_DATA_PATH);
-    return JSON.parse(courses);
-}
-
 const getQuestionsDataFromFile = () => { 
     const questions = fs.readFileSync(QUESTION_DATA_PATH);
     return JSON.parse(questions);
