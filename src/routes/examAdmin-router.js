@@ -5,7 +5,7 @@ const router = express.Router();
 
 const examAdminController = require('../controllers/examAdminController');
 
-router.get('',examAdminController.getAllSubjects);
+router.get('/all',examAdminController.getAllSubjects);
 // router.get('',examAdminController.getAllSubjects);
 
 router.get('/:subject', examAdminController.getExamBySubject);
