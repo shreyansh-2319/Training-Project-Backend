@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "studentId": "U1001",
+    "studentName": "Sai Nishanth",
+    "subjectName": "HTML",
+    "topicName": "HTML Tags",
+    "level": "beginner",
+    "score": 8,
+    "totalQuestions": 10,
+    "correctAnswers": 8,
+    "attemptedQuestions": 10,
+    "status": "passed | failed",
+    "submittedAt": "2025-10-22T10:20:00Z"
+  }
+]
