@@ -1,30 +1,27 @@
 [
   {
-    "courseName": "HTML",
+    "subjectName": "HTML",
     "topics": [
       {
         "topicName": "Basic Tags",
         "difficulty": "Easy",
-        "questionCount": 10,
         "questions": [
           {
             "id": 1,
-            "text": "What does HTML stand for?",
-            "difficulty": "Easy",
+            "text": "The 'transform' property can be used for:",
             "options": [
-              "Hyper Text Markup Language",
-              "Home Tool Markup Language",
-              "Hyperlinks and Text Markup Language",
-              "Hyper Tool Multi Language"
+              "Scaling an element",
+              "Rotating an element",
+              "Translating an element",
+              "All of the above"
             ],
             "correctAnswerIndex": 0
           },
           {
             "id": 2,
             "text": "Which tag is used to create a hyperlink in HTML?",
-            "difficulty": "Easy",
             "options": [
-              "<link>",
+              "<use>",
               "<a>",
               "<href>",
               "<url>"
@@ -34,7 +31,6 @@
           {
             "id": 3,
             "text": "Which tag is used to insert an image?",
-            "difficulty": "Easy",
             "options": [
               "<img>",
               "<image>",
@@ -46,7 +42,6 @@
           {
             "id": 4,
             "text": "What is the correct HTML element for inserting a line break?",
-            "difficulty": "Easy",
             "options": [
               "<break>",
               "<br>",
@@ -58,7 +53,6 @@
           {
             "id": 5,
             "text": "Which attribute is used to provide alternative text for an image?",
-            "difficulty": "Easy",
             "options": [
               "alt",
               "title",
@@ -70,7 +64,6 @@
           {
             "id": 6,
             "text": "Which tag is used to define a table row?",
-            "difficulty": "Easy",
             "options": [
               "<td>",
               "<tr>",
@@ -82,7 +75,6 @@
           {
             "id": 7,
             "text": "How do you create an ordered list?",
-            "difficulty": "Easy",
             "options": [
               "<ul>",
               "<ol>",
@@ -94,7 +86,6 @@
           {
             "id": 8,
             "text": "Which tag is used to define a paragraph?",
-            "difficulty": "Easy",
             "options": [
               "<p>",
               "<para>",
@@ -106,7 +97,6 @@
           {
             "id": 9,
             "text": "Which HTML tag is used to define a division or section?",
-            "difficulty": "Easy",
             "options": [
               "<div>",
               "<section>",
@@ -118,12 +108,33 @@
           {
             "id": 10,
             "text": "What is the correct HTML for creating a checkbox?",
-            "difficulty": "Easy",
             "options": [
               "<input type='checkbox'>",
               "<checkbox>",
               "<input checkbox>",
               "<check>"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": 12,
+            "text": "The 'transform' property can be used for:",
+            "options": [
+              "Scaling an element",
+              "Rotating an element",
+              "Translating an element",
+              "All of the above"
+            ],
+            "correctAnswerIndex": 0
+          },
+          {
+            "id": 13,
+            "text": "The 'transform' property can be used for:",
+            "options": [
+              "Scaling an element",
+              "Rotating an element",
+              "Translating an element",
+              "All of the above"
             ],
             "correctAnswerIndex": 0
           }
@@ -132,12 +143,10 @@
       {
         "topicName": "Forms",
         "difficulty": "Medium",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
             "text": "Which attribute specifies that an input field is required before submission?",
-            "difficulty": "Medium",
             "options": [
               "validate",
               "required",
@@ -149,7 +158,6 @@
           {
             "id": 2,
             "text": "The <fieldset> element is used for what purpose in forms?",
-            "difficulty": "Medium",
             "options": [
               "To group related data",
               "To define the form's action",
@@ -161,7 +169,6 @@
           {
             "id": 3,
             "text": "Which new HTML5 input type is used for a calendar date selection?",
-            "difficulty": "Medium",
             "options": [
               "type='time'",
               "type='calendar'",
@@ -173,7 +180,6 @@
           {
             "id": 4,
             "text": "Which attribute defines the default value displayed inside a text input field?",
-            "difficulty": "Medium",
             "options": [
               "value",
               "placeholder",
@@ -185,7 +191,6 @@
           {
             "id": 5,
             "text": "What is the purpose of the 'method' attribute in the <form> tag?",
-            "difficulty": "Medium",
             "options": [
               "Specifies the URL for submission",
               "Specifies how form data is sent (GET/POST)",
@@ -199,12 +204,10 @@
       {
         "topicName": "Media",
         "difficulty": "Medium",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
             "text": "Which tag is best used to wrap introductory content for an article or section?",
-            "difficulty": "Medium",
             "options": [
               "<div>",
               "<header>",
@@ -216,7 +219,6 @@
           {
             "id": 2,
             "text": "The <audio> tag is an example of what type of HTML tag?",
-            "difficulty": "Medium",
             "options": [
               "Structural",
               "Deprecated",
@@ -228,7 +230,6 @@
           {
             "id": 3,
             "text": "Which attribute is required for the <source> element inside a <video> tag?",
-            "difficulty": "Medium",
             "options": [
               "width",
               "height",
@@ -240,7 +241,6 @@
           {
             "id": 4,
             "text": "Which element is used to contain a self-contained composition (like a blog post)?",
-            "difficulty": "Medium",
             "options": [
               "<section>",
               "<aside>",
@@ -252,7 +252,6 @@
           {
             "id": 5,
             "text": "How do you automatically start playback for a video element?",
-            "difficulty": "Medium",
             "options": [
               "play attribute",
               "start attribute",
@@ -266,12 +265,10 @@
       {
         "topicName": "Tables & Lists",
         "difficulty": "Easy",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
             "text": "Which tag defines a cell in a table that contains header information (bold and centered text)?",
-            "difficulty": "Easy",
             "options": [
               "<td>",
               "<tr>",
@@ -283,7 +280,6 @@
           {
             "id": 2,
             "text": "How do you make an unordered list?",
-            "difficulty": "Easy",
             "options": [
               "<ol>",
               "<ul>",
@@ -295,7 +291,6 @@
           {
             "id": 3,
             "text": "The attribute 'colspan' is used for:",
-            "difficulty": "Easy",
             "options": [
               "Merging rows",
               "Merging columns",
@@ -307,7 +302,6 @@
           {
             "id": 4,
             "text": "Which element defines the table's main body content?",
-            "difficulty": "Easy",
             "options": [
               "<tbody>",
               "<tfoot>",
@@ -319,7 +313,6 @@
           {
             "id": 5,
             "text": "Which HTML element is used to describe the data of a table?",
-            "difficulty": "Easy",
             "options": [
               "<caption>",
               "<label>",
@@ -333,17 +326,15 @@
     ]
   },
   {
-    "courseName": "CSS",
+    "subjectName": "CSS",
     "topics": [
       {
         "topicName": "Selectors",
         "difficulty": "Easy",
-        "questionCount": 10,
         "questions": [
           {
             "id": 1,
             "text": "What does CSS stand for?",
-            "difficulty": "Easy",
             "options": [
               "Colorful Style Sheets",
               "Creative Style Syntax",
@@ -355,7 +346,6 @@
           {
             "id": 3,
             "text": "How do you make text bold in CSS?",
-            "difficulty": "Easy",
             "options": [
               "font-weight: bold;",
               "text-style: bold;",
@@ -367,7 +357,6 @@
           {
             "id": 4,
             "text": "Which CSS property controls the text size?",
-            "difficulty": "Easy",
             "options": [
               "font-size",
               "text-size",
@@ -379,7 +368,6 @@
           {
             "id": 5,
             "text": "What is the default position value in CSS?",
-            "difficulty": "Easy",
             "options": [
               "absolute",
               "relative",
@@ -391,7 +379,6 @@
           {
             "id": 6,
             "text": "Which selector targets all paragraph elements?",
-            "difficulty": "Easy",
             "options": [
               "p",
               ".p",
@@ -403,7 +390,6 @@
           {
             "id": 7,
             "text": "How do you apply a style to an element with id 'header'?",
-            "difficulty": "Easy",
             "options": [
               "#header",
               ".header",
@@ -415,7 +401,6 @@
           {
             "id": 8,
             "text": "Which property is used to set the spacing between lines of text?",
-            "difficulty": "Easy",
             "options": [
               "line-spacing",
               "line-height",
@@ -427,7 +412,6 @@
           {
             "id": 9,
             "text": "Which property is used to hide an element?",
-            "difficulty": "Easy",
             "options": [
               "visibility: hidden;",
               "display: none;",
@@ -439,7 +423,6 @@
           {
             "id": 10,
             "text": "Which CSS unit is relative to the font-size of the element?",
-            "difficulty": "Easy",
             "options": [
               "px",
               "em",
@@ -451,12 +434,21 @@
           {
             "id": 11,
             "text": "What does CSS stand for?",
-            "difficulty": "Easy",
             "options": [
               "Colorful Style Sheets",
               "Creative Style Syntax",
               "Cascading Style Sheets",
               "Computer Style Sheets"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": 12,
+            "text": "What does CSS stand for?",
+            "options": [
+              "Colorful Style Sheets",
+              "Creative Style Syntax",
+              "Cascading Style Sheets"
             ],
             "correctAnswerIndex": 2
           }
@@ -465,12 +457,10 @@
       {
         "topicName": "Layout (Box Model, Flexbox)",
         "difficulty": "Medium",
-        "questionCount": 10,
         "questions": [
           {
             "id": 1,
             "text": "What is the correct order of CSS properties in the Box Model?",
-            "difficulty": "Medium",
             "options": [
               "Margin, Border, Padding, Content",
               "Padding, Border, Margin, Content",
@@ -482,7 +472,6 @@
           {
             "id": 2,
             "text": "Which property defines the space outside the border of an element?",
-            "difficulty": "Medium",
             "options": [
               "padding",
               "margin",
@@ -494,7 +483,6 @@
           {
             "id": 3,
             "text": "Which Flexbox property controls how flex items are spaced along the main axis?",
-            "difficulty": "Medium",
             "options": [
               "align-items",
               "justify-content",
@@ -506,7 +494,6 @@
           {
             "id": 4,
             "text": "Which property sets the direction of the flex container?",
-            "difficulty": "Medium",
             "options": [
               "flex-wrap",
               "flex-direction",
@@ -518,7 +505,6 @@
           {
             "id": 5,
             "text": "What does 'box-sizing: border-box;' do?",
-            "difficulty": "Medium",
             "options": [
               "Includes padding and border in the element's total width and height.",
               "Includes only padding in the total width and height.",
@@ -530,7 +516,6 @@
           {
             "id": 6,
             "text": "Which CSS display value is used to enable Flexbox layout?",
-            "difficulty": "Medium",
             "options": [
               "display: block;",
               "display: inline-flex;",
@@ -542,7 +527,6 @@
           {
             "id": 7,
             "text": "The 'float' property is typically used for:",
-            "difficulty": "Medium",
             "options": [
               "Vertically centering content",
               "Wrapping text around images",
@@ -554,7 +538,6 @@
           {
             "id": 8,
             "text": "Which property is used to clear the effects of floating elements?",
-            "difficulty": "Medium",
             "options": [
               "clear-float",
               "float: none;",
@@ -566,7 +549,6 @@
           {
             "id": 9,
             "text": "In CSS Grid, what does 'grid-template-columns' define?",
-            "difficulty": "Medium",
             "options": [
               "The number and size of rows",
               "The number and size of columns",
@@ -578,7 +560,6 @@
           {
             "id": 10,
             "text": "Which property allows flex items to grow or shrink?",
-            "difficulty": "Medium",
             "options": [
               "flex-grow",
               "flex-shrink",
@@ -592,12 +573,10 @@
       {
         "topicName": "Positioning & Z-Index",
         "difficulty": "Hard",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
             "text": "Which position value is positioned relative to the viewport?",
-            "difficulty": "Hard",
             "options": [
               "relative",
               "absolute",
@@ -609,7 +588,6 @@
           {
             "id": 2,
             "text": "When is an element positioned 'absolute' relative to its nearest positioned ancestor?",
-            "difficulty": "Hard",
             "options": [
               "Always",
               "Only if the ancestor is 'static'",
@@ -621,7 +599,6 @@
           {
             "id": 3,
             "text": "A high 'z-index' value ensures an element appears:",
-            "difficulty": "Hard",
             "options": [
               "Behind other elements",
               "To the left of other elements",
@@ -633,7 +610,6 @@
           {
             "id": 4,
             "text": "For 'z-index' to have an effect, the element's 'position' must be:",
-            "difficulty": "Hard",
             "options": [
               "static",
               "relative, absolute, or fixed",
@@ -645,7 +621,6 @@
           {
             "id": 5,
             "text": "The 'position: sticky;' value acts like which other position value when it is *not* at its threshold?",
-            "difficulty": "Hard",
             "options": [
               "relative",
               "absolute",
@@ -659,12 +634,10 @@
       {
         "topicName": "Transitions & Animations",
         "difficulty": "Medium",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
             "text": "Which property is used to apply a smooth change over a specified duration?",
-            "difficulty": "Medium",
             "options": [
               "transform",
               "transition",
@@ -676,7 +649,6 @@
           {
             "id": 2,
             "text": "The 'transition-timing-function' controls:",
-            "difficulty": "Medium",
             "options": [
               "The delay before the transition starts",
               "The speed curve of the transition",
@@ -688,7 +660,6 @@
           {
             "id": 3,
             "text": "CSS Animations require defining keyframes using which rule?",
-            "difficulty": "Medium",
             "options": [
               "@keyframes",
               "@animation",
@@ -700,7 +671,6 @@
           {
             "id": 4,
             "text": "Which property is used to specify how many times an animation should run?",
-            "difficulty": "Medium",
             "options": [
               "animation-duration",
               "animation-delay",
@@ -712,7 +682,6 @@
           {
             "id": 5,
             "text": "The 'transform' property can be used for:",
-            "difficulty": "Medium",
             "options": [
               "Scaling an element",
               "Rotating an element",
@@ -726,17 +695,15 @@
     ]
   },
   {
-    "courseName": "JavaScript",
+    "subjectName": "JavaScript",
     "topics": [
       {
         "topicName": "Variables, Data Types, & Operators",
         "difficulty": "Easy",
-        "questionCount": 10,
         "questions": [
           {
             "id": 1,
             "text": "Which keyword is used to declare a variable in JavaScript?",
-            "difficulty": "Medium",
             "options": [
               "var",
               "int",
@@ -748,7 +715,6 @@
           {
             "id": 2,
             "text": "Which method is used to write content in the browser?",
-            "difficulty": "Easy",
             "options": [
               "console.log()",
               "document.write()",
@@ -760,7 +726,6 @@
           {
             "id": 3,
             "text": "Which operator is used to assign a value?",
-            "difficulty": "Easy",
             "options": [
               "=",
               "==",
@@ -772,7 +737,6 @@
           {
             "id": 4,
             "text": "Which method converts JSON to a JavaScript object?",
-            "difficulty": "Easy",
             "options": [
               "JSON.parse()",
               "JSON.stringify()",
@@ -784,7 +748,6 @@
           {
             "id": 5,
             "text": "Which function is used to delay execution?",
-            "difficulty": "Easy",
             "options": [
               "setTimeout()",
               "setInterval()",
@@ -796,7 +759,6 @@
           {
             "id": 6,
             "text": "What is the output of 'typeof null'?",
-            "difficulty": "Easy",
             "options": [
               "null",
               "object",
@@ -808,7 +770,6 @@
           {
             "id": 7,
             "text": "Which symbol is used for strict equality?",
-            "difficulty": "Easy",
             "options": [
               "==",
               "===",
@@ -820,7 +781,6 @@
           {
             "id": 8,
             "text": "Which method adds an element to the end of an array?",
-            "difficulty": "Easy",
             "options": [
               "push()",
               "pop()",
@@ -832,7 +792,6 @@
           {
             "id": 9,
             "text": "Which loop is guaranteed to run at least once?",
-            "difficulty": "Easy",
             "options": [
               "for",
               "while",
@@ -844,7 +803,6 @@
           {
             "id": 10,
             "text": "Which keyword is used to define a function?",
-            "difficulty": "Easy",
             "options": [
               "func",
               "function",
@@ -858,12 +816,10 @@
       {
         "topicName": "Functions & Scope",
         "difficulty": "Medium",
-        "questionCount": 10,
         "questions": [
           {
             "id": 1,
             "text": "In JavaScript, what defines the scope of a variable declared with 'let'?",
-            "difficulty": "Medium",
             "options": [
               "Global Scope",
               "Function Scope",
@@ -875,7 +831,6 @@
           {
             "id": 2,
             "text": "What is a closure in JavaScript?",
-            "difficulty": "Medium",
             "options": [
               "A function without a name",
               "An IIFE",
@@ -887,7 +842,6 @@
           {
             "id": 3,
             "text": "What does the 'this' keyword refer to inside an arrow function?",
-            "difficulty": "Medium",
             "options": [
               "The function itself",
               "The global object (window)",
@@ -899,7 +853,6 @@
           {
             "id": 4,
             "text": "Which built-in function is used to convert a string to an integer?",
-            "difficulty": "Medium",
             "options": [
               "toInteger()",
               "parseInt()",
@@ -911,7 +864,6 @@
           {
             "id": 5,
             "text": "Which property is used to get the length of a string?",
-            "difficulty": "Medium",
             "options": [
               "size",
               "length",
@@ -923,7 +875,6 @@
           {
             "id": 6,
             "text": "What is hoisting in JavaScript?",
-            "difficulty": "Medium",
             "options": [
               "The ability to use variables before they are declared",
               "The movement of code to a server",
@@ -935,19 +886,17 @@
           {
             "id": 7,
             "text": "What is the difference between '==' and '==='?",
-            "difficulty": "Medium",
             "options": [
               "No difference",
               "One compares value, the other compares reference",
               "One compares value, the other compares value and type",
-              "One is for numbers, the other is for strings"
+              "One is for numbers,\n the other is for strings"
             ],
             "correctAnswerIndex": 2
           },
           {
             "id": 8,
             "text": "The spread operator (...) can be used to:",
-            "difficulty": "Medium",
             "options": [
               "Merge arrays",
               "Copy objects",
@@ -959,7 +908,6 @@
           {
             "id": 9,
             "text": "Which method is used to remove the first element from an array?",
-            "difficulty": "Medium",
             "options": [
               "pop()",
               "shift()",
@@ -971,7 +919,6 @@
           {
             "id": 10,
             "text": "Which loop iterates over the values of an iterable object (like an array)?",
-            "difficulty": "Medium",
             "options": [
               "for...in",
               "for...of",
@@ -985,12 +932,10 @@
       {
         "topicName": "DOM Manipulation",
         "difficulty": "Hard",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
             "text": "Which method retrieves the first element that matches a CSS selector?",
-            "difficulty": "Hard",
             "options": [
               "document.querySelector()",
               "document.getElementById()",
@@ -1002,7 +947,6 @@
           {
             "id": 2,
             "text": "Which property is used to change the content of an HTML element in the DOM?",
-            "difficulty": "Hard",
             "options": [
               "innerHTML",
               "textValue",
@@ -1014,7 +958,6 @@
           {
             "id": 3,
             "text": "Which method should you use to create a new HTML element?",
-            "difficulty": "Hard",
             "options": [
               "document.newElement()",
               "document.createElement()",
@@ -1026,7 +969,6 @@
           {
             "id": 4,
             "text": "How do you add an event listener for a click event to an element?",
-            "difficulty": "Hard",
             "options": [
               "element.onclick = func",
               "element.addEventListener('click', func)",
@@ -1038,7 +980,6 @@
           {
             "id": 5,
             "text": "What is the name for the event that fires when the entire page is fully loaded?",
-            "difficulty": "Hard",
             "options": [
               "load",
               "ready",
@@ -1048,404 +989,170 @@
             "correctAnswerIndex": 0
           }
         ]
-      },
-      {
-        "topicName": "Asynchronous JS (Promises)",
-        "difficulty": "Hard",
-        "questionCount": 5,
-        "questions": [
-          {
-            "id": 1,
-            "text": "Which keyword must be used inside a function to enable the use of 'await'?",
-            "difficulty": "Hard",
-            "options": [
-              "promise",
-              "async",
-              "wait",
-              "defer"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
-            "id": 2,
-            "text": "Which Promise method is used to handle successful completion?",
-            "difficulty": "Hard",
-            "options": [
-              "catch()",
-              "finally()",
-              "then()",
-              "success()"
-            ],
-            "correctAnswerIndex": 2
-          },
-          {
-            "id": 3,
-            "text": "What is the purpose of Promise.all()?",
-            "difficulty": "Hard",
-            "options": [
-              "Runs promises sequentially",
-              "Resolves when all promises in an iterable have resolved",
-              "Resolves when any promise in an iterable resolves",
-              "Handles errors for all promises"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
-            "id": 4,
-            "text": "What is the state of a Promise that has failed and called its error handler?",
-            "difficulty": "Hard",
-            "options": [
-              "Pending",
-              "Fulfilled",
-              "Rejected",
-              "Settled"
-            ],
-            "correctAnswerIndex": 2
-          },
-          {
-            "id": 5,
-            "text": "The 'await' keyword can only be used:",
-            "difficulty": "Hard",
-            "options": [
-              "Inside a class method",
-              "Inside an 'async' function",
-              "At the top level of a module",
-              "Only with 'fetch' API calls"
-            ],
-            "correctAnswerIndex": 1
-          }
-        ]
       }
     ]
   },
   {
-    "courseName": "Bootstrap",
+    "subjectName": "Bootstrap",
     "topics": [
       {
         "topicName": "Grid System & Layout",
         "difficulty": "Easy",
-        "questionCount": 10,
         "questions": [
           {
             "id": 1,
-            "text": "What is Bootstrap primarily used for?",
-            "difficulty": "Easy",
+            "text": "What is the primary purpose of the **Bootstrap Grid System**?",
             "options": [
-              "Database management",
-              "Server-side scripting",
-              "Responsive web design",
-              "Image editing"
-            ],
-            "correctAnswerIndex": 2
-          },
-          {
-            "id": 2,
-            "text": "Which class makes an element responsive in Bootstrap?",
-            "difficulty": "Easy",
-            "options": [
-              ".responsive",
-              ".img-fluid",
-              ".fluid-img",
-              ".img-responsive"
+              "To define fonts and colors globally.",
+              "To organize content horizontally and vertically using rows and columns.",
+              "To provide pre-styled navigation bars.",
+              "To handle client-side form validation."
             ],
             "correctAnswerIndex": 1
           },
           {
-            "id": 3,
-            "text": "Which Bootstrap class is used for a container with fixed width?",
-            "difficulty": "Easy",
+            "id": 2,
+            "text": "Which class is used to create a **responsive, fixed-width** container that centers content on the page?",
             "options": [
-              ".container",
               ".container-fluid",
               ".container-fixed",
-              ".container-box"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "id": 4,
-            "text": "Which class is used to create a button in Bootstrap?",
-            "difficulty": "Easy",
-            "options": [
-              ".btn",
-              ".button",
-              ".btn-default",
-              ".btn-group"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "id": 5,
-            "text": "Which class is used to create a navigation bar?",
-            "difficulty": "Easy",
-            "options": [
-              ".navbar",
-              ".nav",
-              ".navigation",
-              ".nav-bar"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "id": 6,
-            "text": "Which grid system does Bootstrap use?",
-            "difficulty": "Easy",
-            "options": [
-              "6-column",
-              "9-column",
-              "12-column",
-              "15-column"
+              ".container",
+              ".wrapper"
             ],
             "correctAnswerIndex": 2
-          },
-          {
-            "id": 7,
-            "text": "Which class is used to hide an element only on small screens?",
-            "difficulty": "Easy",
-            "options": [
-              ".d-none",
-              ".d-sm-none",
-              ".d-md-none",
-              ".d-lg-none"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
-            "id": 8,
-            "text": "Which Bootstrap component is used for alerts?",
-            "difficulty": "Easy",
-            "options": [
-              ".alert",
-              ".notify",
-              ".popup",
-              ".message"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "id": 9,
-            "text": "Which class is used to create a dropdown menu?",
-            "difficulty": "Easy",
-            "options": [
-              ".dropdown",
-              ".menu",
-              ".drop",
-              ".nav-dropdown"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "id": 10,
-            "text": "Which class is used to align text to the center?",
-            "difficulty": "Hard",
-            "options": [
-              ".text-left",
-              ".text-right",
-              ".text-center",
-              ".text-middle"
-            ],
-            "correctAnswerIndex": 2
-          }
-        ]
-      },
-      {
-        "topicName": "Components (Navs, Buttons, Cards)",
-        "difficulty": "Easy",
-        "questionCount": 5,
-        "questions": [
-          {
-            "id": 1,
-            "text": "Which class is used to create a large button?",
-            "difficulty": "Easy",
-            "options": [
-              ".btn-big",
-              ".btn-lg",
-              ".btn-large",
-              ".btn-xl"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
-            "id": 2,
-            "text": "To invert the colors of a navbar (dark background, light text), which class is commonly used?",
-            "difficulty": "Easy",
-            "options": [
-              ".navbar-light",
-              ".navbar-dark",
-              ".bg-primary",
-              ".navbar-inverse"
-            ],
-            "correctAnswerIndex": 1
           },
           {
             "id": 3,
-            "text": "Which component is used to display a message box that can be closed by the user?",
-            "difficulty": "Easy",
+            "text": "Which utility class combination would you use to center a block-level element horizontally?",
             "options": [
-              "Modal",
-              "Tooltip",
-              "Alert",
-              "Popover"
+              ".align-center",
+              ".text-center",
+              ".mx-auto",
+              ".center-block"
             ],
             "correctAnswerIndex": 2
           },
           {
             "id": 4,
-            "text": "Which class is used to make a card span the full width of its parent?",
-            "difficulty": "Easy",
+            "text": "Which Bootstrap class should you add to a `<div>` to define a **row**?",
             "options": [
-              ".card-full",
-              ".card-stretch",
-              ".w-100",
-              ".d-block"
+              ".column",
+              ".col",
+              ".row",
+              ".grid"
             ],
             "correctAnswerIndex": 2
           },
           {
             "id": 5,
-            "text": "Which class makes a button visually stand out as the primary action?",
-            "difficulty": "Easy",
+            "text": "If a column is defined as `col-md-6`, what will its width be on a screen that is **less than 768px** wide (e.g., small phones)?",
             "options": [
-              ".btn-default",
-              ".btn-primary",
-              ".btn-info",
-              ".btn-success"
+              "Always 6 columns (50%)",
+              "12 columns (100%)",
+              "4 columns (33.33%)",
+              "The width will be inherited from the next smaller breakpoint, if defined."
             ],
             "correctAnswerIndex": 1
           }
         ]
       },
       {
-        "topicName": "Utilities & Helpers",
+        "topicName": "Components & JavaScript Integration",
         "difficulty": "Medium",
-        "questionCount": 5,
         "questions": [
           {
             "id": 1,
-            "text": "Which class is used to apply 5 units of bottom margin?",
-            "difficulty": "Medium",
+            "text": "To activate a **Bootstrap Modal** via a button click, which two primary attributes are needed on the button?",
             "options": [
-              ".m-b-5",
-              ".mb-5",
-              ".margin-bottom-5",
-              ".pb-5"
+              "data-toggle and data-id",
+              "data-modal and data-href",
+              "data-bs-toggle='modal' and data-bs-target='#id'",
+              "class='modal-open' and id='modal-button'"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2
           },
           {
             "id": 2,
-            "text": "How do you hide an element but keep it available for screen readers?",
-            "difficulty": "Medium",
+            "text": "Which base class is used for styling a basic, standalone informational box (often with a header and body)?",
             "options": [
-              ".d-none",
-              ".invisible",
-              ".sr-only",
-              ".visually-hidden"
+              ".panel",
+              ".box",
+              ".card",
+              ".item"
+            ],
+            "correctAnswerIndex": 2
+          },
+          {
+            "id": 3,
+            "text": "To display a dismissible alert box, which class indicates that the element can be closed and is usually placed on a button inside the alert?",
+            "options": [
+              ".alert-close",
+              "data-dismiss",
+              ".close",
+              "data-bs-dismiss='alert'"
             ],
             "correctAnswerIndex": 3
           },
           {
-            "id": 3,
-            "text": "Which class quickly floats an element to the right?",
-            "difficulty": "Medium",
+            "id": 4,
+            "text": "Which class is used to style a button as the main, most prominent action button in Bootstrap?",
             "options": [
-              ".float-right",
-              ".pull-right",
-              ".float-end",
-              ".align-right"
+              ".btn-default",
+              ".btn-link",
+              ".btn-primary",
+              ".btn-main"
             ],
             "correctAnswerIndex": 2
           },
           {
-            "id": 4,
-            "text": "The class '.shadow-sm' is a utility for applying:",
-            "difficulty": "Medium",
-            "options": [
-              "Text shadow",
-              "Box shadow",
-              "Gradient overlay",
-              "Border radius"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
             "id": 5,
-            "text": "To add a small amount of padding to all sides of an element, you would use:",
-            "difficulty": "Medium",
+            "text": "Which class is used to remove the default background and borders from a **Navbar** to make it transparent?",
             "options": [
-              ".p-1",
-              ".p-xs",
-              ".pad-small",
-              ".ptbl-1"
+              ".navbar-transparent",
+              ".bg-clear",
+              ".navbar-light",
+              ".bg-transparent"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3
           }
         ]
       },
       {
-        "topicName": "Responsive Design",
-        "difficulty": "Medium",
-        "questionCount": 5,
+        "topicName": "Theming & Customization (Sass)",
+        "difficulty": "Hard",
         "questions": [
           {
             "id": 1,
-            "text": "Which breakpoint is used for medium devices (tablets)?",
-            "difficulty": "Medium",
+            "text": "To override Bootstrap's default color palette and typography consistently across a project, the most efficient method is to:",
             "options": [
-              "sm",
-              "md",
-              "lg",
-              "xl"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
-            "id": 2,
-            "text": "To hide an element on all screens EXCEPT large screens, you would use:",
-            "difficulty": "Medium",
-            "options": [
-              ".d-none .d-lg-block",
-              ".d-none .d-lg-show",
-              ".d-block .d-lg-none",
-              ".d-block .d-md-none"
-            ],
-            "correctAnswerIndex": 0
-          },
-          {
-            "id": 3,
-            "text": "The largest default breakpoint in Bootstrap 5 is:",
-            "difficulty": "Medium",
-            "options": [
-              "xl",
-              "xxl",
-              "2xl",
-              "max"
-            ],
-            "correctAnswerIndex": 1
-          },
-          {
-            "id": 4,
-            "text": "Which grid column class applies to extra small screens (mobile phones, less than 576px)?",
-            "difficulty": "Medium",
-            "options": [
-              ".col-xs-",
-              ".col-sm-",
-              ".col-",
-              ".col-all-"
+              "Use inline CSS styles with `!important`.",
+              "Overwrite the Bootstrap CSS file directly.",
+              "Use SASS/SCSS to import Bootstrap and override its default variable map.",
+              "Use a custom JavaScript file to dynamically change CSS properties."
             ],
             "correctAnswerIndex": 2
           },
           {
-            "id": 5,
-            "text": "What is the primary function of the '.row' class?",
-            "difficulty": "Medium",
+            "id": 2,
+            "text": "What is the purpose of the Bootstrap Sass variable `$spacer`?",
             "options": [
-              "To define a horizontal group of columns",
-              "To apply a border",
-              "To set the height of a section",
-              "To contain the entire page layout"
+              "It controls the default line-height for all typography.",
+              "It defines the base unit used for all margin and padding utility classes.",
+              "It sets the default z-index value for modals and dropdowns.",
+              "It is used to define the width of columns."
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1
+          },
+          {
+            "id": 3,
+            "text": "If you want to create a new button style called `.btn-custom` without modifying the core Bootstrap source, which Bootstrap feature should you use in your SCSS file?",
+            "options": [
+              "Custom JavaScript classes",
+              "The `map-merge` function to add a color to the `$theme-colors` map.",
+              "Direct CSS rule overriding the `.btn` class.",
+              "A mixin called `make-button-variant`."
+            ],
+            "correctAnswerIndex": 1
           }
         ]
       }
