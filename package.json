@@ -7,17 +7,32 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "express-validator": "^7.3.0",
+    "init": "^0.1.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.1",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "uuid": "^13.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyansh-2319/Training-Project-Backend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shreyansh-2319/Training-Project-Backend/issues"
+  },
+  "homepage": "https://github.com/shreyansh-2319/Training-Project-Backend#readme"
 }
